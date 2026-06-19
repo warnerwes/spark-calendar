@@ -1,0 +1,88 @@
+{
+  "version": "1",
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-19T17:46:33.934Z",
+  "timezone": "America/Los_Angeles",
+  "years": {
+    "2025-2026": {
+      "label": "2025-2026",
+      "sessions": [
+        {
+          "id": "s1",
+          "label": "Session 1",
+          "begins": "2025-09-08",
+          "ends": "2025-12-17",
+          "withdrawal": []
+        },
+        {
+          "id": "s2",
+          "label": "Session 2",
+          "begins": "2026-01-12",
+          "ends": "2026-05-13",
+          "withdrawal": []
+        }
+      ],
+      "orientations": [
+        {
+          "label": "Parent Orientation",
+          "date": "2025-09-03"
+        }
+      ],
+      "noClassWindows": []
+    },
+    "2026-2027": {
+      "label": "2026-2027",
+      "sessions": [
+        {
+          "id": "s1",
+          "label": "Session 1",
+          "begins": "2026-09-08",
+          "ends": "2026-12-18",
+          "withdrawal": [
+            {
+              "pattern": "MW",
+              "date": "2026-09-22"
+            },
+            {
+              "pattern": "TT",
+              "date": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "label": "Session 2",
+          "begins": "2027-01-11",
+          "ends": "2027-05-14",
+          "withdrawal": [
+            {
+              "pattern": "MW",
+              "date": "2027-01-25"
+            },
+            {
+              "pattern": "TT",
+              "date": "2027-01-26"
+            }
+          ]
+        }
+      ],
+      "orientations": [
+        {
+          "label": "Learning Coach Orientation",
+          "date": "2026-09-01"
+        },
+        {
+          "label": "Learning Coach Orientation",
+          "date": "2026-09-02"
+        }
+      ],
+      "noClassWindows": [
+        {
+          "label": "State Testing",
+          "start": "2027-04-19",
+          "end": "2027-04-30"
+        }
+      ]
+    }
+  }
+}

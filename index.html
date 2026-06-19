@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spark Calendar API</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 44rem; margin: 3rem auto; padding: 0 1rem; color: #1a1a2e; }
+  code, pre { background: #f4f4f8; border-radius: 6px; }
+  code { padding: 0.1em 0.35em; } pre { padding: 1rem; overflow:auto; }
+  a { color: #5b3df5; } h1 { margin-bottom: 0.2rem; }
+  .muted { color: #666; }
+</style>
+</head>
+<body>
+  <h1>Spark Calendar API</h1>
+  <p class="muted">Static JSON feed of Spark program dates — sessions, withdrawal deadlines, orientations, no-class windows.</p>
+  <p>Program dates only. School-wide dates live in the
+     <a href="https://dates.warner.click">School Dates API</a>.</p>
+  <h2>Feed</h2>
+  <p><a href="./v1/spark-calendar.json"><code>/v1/spark-calendar.json</code></a></p>
+  <p>Server-side, prefer the raw URL:</p>
+  <pre>https://raw.githubusercontent.com/warnerwes/spark-calendar/main/v1/spark-calendar.json</pre>
+  <p>See the <a href="https://github.com/warnerwes/spark-calendar#readme">README</a> for the contract and a copy-paste client recipe.</p>
+</body>
+</html>
