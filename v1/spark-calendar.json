@@ -1,7 +1,7 @@
 {
   "version": "1",
   "schemaVersion": 1,
-  "generatedAt": "2026-06-19T17:52:30.898Z",
+  "generatedAt": "2026-08-11T00:13:02.315Z",
   "timezone": "America/Los_Angeles",
   "years": {
     "2025-2026": {
@@ -47,11 +47,11 @@
           "withdrawal": [
             {
               "pattern": "MW",
-              "date": "2026-09-22"
+              "date": "2026-09-21"
             },
             {
               "pattern": "TT",
-              "date": "2026-09-21"
+              "date": "2026-09-22"
             }
           ]
         },
